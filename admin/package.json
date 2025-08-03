@@ -30,8 +30,9 @@
     "swiper": "^11.2.10",
     "xlsx": "^0.18.5"
     "overrides": {
-    "xlsx": "file:vendor/xlsx-0.20.3.tgz"
-  }
+    "overrides": {
+  "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+}
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
