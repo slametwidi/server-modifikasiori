@@ -1,0 +1,23 @@
+.panel-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.panel-container .scroll {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding-bottom: 70px; /* area tambahan untuk jaga footer tidak overlap saat scroll */
+}
+.panel-container .bottomSection {
+  flex: 0 0 auto;
+  background: white;
+  width: 100%;
+  z-index: 10;
+}
+
+.bottomSection {
+  position: sticky;
+  bottom: 0;
+  background: white;
+  z-index: 10;
+}

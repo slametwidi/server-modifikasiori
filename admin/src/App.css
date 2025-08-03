@@ -1,0 +1,44 @@
+
+.MuiBadge-badge{background: #ff0000 !important;}
+
+.ReactCollapse--collapse {
+  transition: height 300ms;
+}
+
+::-webkit-scrollbar{width: 10px !important; height: 10px !important;}
+::-webkit-scrollbar-thumb{background: #ccc !important;}
+
+.btn-blue{background: #3872fa !important; color: #fff !important; padding: 8px 20px !important;}
+.btn-blue:hover{background: #3067e5 !important;}
+
+.btn-red{background: #ff0000 !important; color: #fff !important; padding: 8px 20px !important;}
+.btn-red:hover{background: #ff0000 !important;}
+
+.btn-sm{padding: 6px 20px !important; font-size: 13px !important;}
+.btn-lg{padding: 8px 20px !important; font-size: 16px !important;}
+
+
+a.active button{background: #dcdcdc !important;}
+
+.MuiAppBar-colorPrimary{background: #f1f1f1 !important;}
+
+.css-1jpc804-MuiDivider-root {border-color: rgba(0, 0, 0, 0.3) !important;}
+
+.sidebar button {
+  justify-content: left !important;
+  color: black;
+}
+
+.Toastify__toast--success {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.btn-trash {
+  color: inherit; /* warna default */
+}
+
+.btn-trash:hover {
+  color: red !important; /* ikon berubah merah saat hover */
+  background-color: rgba(255, 0, 0, 0.1) !important;
+}
