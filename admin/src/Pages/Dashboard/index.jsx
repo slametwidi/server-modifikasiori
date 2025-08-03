@@ -15,7 +15,7 @@ import { IoEyeOutline, IoTrashOutline } from "react-icons/io5";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 import { PiExportBold } from "react-icons/pi";
 import DashboardBoxes from "../../Components/DashboardBoxes";
-import Badge from "../../components/Badge";
+import Badge from "../../Components/Badge";
 import { MyContext } from "../../App";
 import { AuthContext } from "../../Components/Auth/AuthContext";
 import { pdf } from "@react-pdf/renderer";
